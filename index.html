@@ -1,0 +1,42 @@
+<html>
+
+<head><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css">
+	<link rel="stylesheet" href="index.css">
+</head>
+
+<body>
+	<!-- <div> -->
+	<div>
+		<h1> <span id="head-span">Generate a</span> <br/> random password</h1>
+	</div>
+	<div>
+		<p>Nerver use an insecure password again</p>
+		<p>Click the button below to generate two strong passwords.</p>
+	</div>
+	<div>
+        <div class="length">
+		    <input type="checkbox" id="check-box" checked = "checked">
+            <label for="check-box">Include Numbers and Symbols</label><br>
+        </div>
+        <div class="length">
+            <label for="text-box"> Required Password Length (8 to 30) : </label>
+            <input type="text" id="text-box"><br/>
+            <p id="msg"><p>
+        </div>
+        
+	</div>
+	<div>
+		<button class="btn" onclick="setPasswords()">Generate Passwords</button>
+	</div>
+	<div>
+		<hr>
+	</div>
+	<div id="password-btns">
+		<button onclick="copy()" id="pass1" class="password"></button>
+		<button onclick="copy()" id="pass2" class="password"></button>
+	</div>
+	<script  src="index.js"></script>
+
+</body>
+
+</html>

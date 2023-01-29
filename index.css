@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Maven+Pro:wght@400;700&display=swap');
+
+body {
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    background: #1F2937;
+    color: white;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+}
+
+div{
+    width: 600px;
+}
+h1{
+    color: #4ADF86;
+    font-family: "Maven Pro";
+    font-size: 50px;
+    margin-bottom: 0px;
+}
+#head-span{
+    color: white;
+}
+p{
+    
+    color: white;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.btn{
+    color: white;
+    padding: 10px;
+    width: 200px;
+    background: #10B981;
+    box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.05);
+    text-shadow: 0 0 3px black;
+    border: none;
+    margin-top: 50px;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+hr{
+    background: #2F3E53;
+    width: 450px;
+    border: 1px solid #2F3E53;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+#password-btns{
+    display: flex;
+    justify-content: space-between
+}
+
+.password{
+    width: 280px;
+    height: 40px;
+    background: #273549;
+    border-radius: 6px;
+    border: none;
+    font-size: 14px;
+    color: #10B981;
+    padding: 9px 17px;
+    cursor: pointer;
+}
+#text-box{
+    width: 100px;
+    height: 30px;
+    background: #273549;
+    border-radius: 6px;
+    border: none;
+    color: white
+}
+
+.length{
+    margin-top: 40px;
+}
+
+#msg{
+    color: red;
+}
+
+.password:active{
+    transform: translateY(4px);
+}
+
+.btn:active{
+    transform: translateY(4px);
+}
